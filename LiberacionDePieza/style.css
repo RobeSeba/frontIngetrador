@@ -1,0 +1,51 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+}
+.header{
+    width: 100%;
+    min-height: 100px;
+    background-color:#fff4c9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0;
+}
+.saludo{
+    padding-left: 20px;
+    align-items: center;
+    gap: 15px;
+}
+.saludo h4{
+    font-size: 1.4rem;
+}
+.salida{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.logo-comesa{
+    width: 10em;
+    height: 4em;
+    border-radius: 15px;
+    background-color: #d9d9d9;
+}
+.icono-salida{
+    width: 3em;
+    height: 3em;
+}
+.offcanvas.offcanvas-start{
+    top:17%;
+}
+.offcanvas{
+    --bs-offcanvas-width:200px;
+}
+
+nav.color,.offcanvas{
+    background-color: #efe4ba;
+}
